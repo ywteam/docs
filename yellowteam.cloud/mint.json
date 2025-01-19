@@ -29,6 +29,10 @@
     {
       "name": "API Reference",
       "url": "api-reference"
+    },
+    {
+      "name": "Shell Development Kit",
+      "url": "sdk"
     }
   ],
   "anchors": [
