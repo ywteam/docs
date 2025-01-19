@@ -63,6 +63,20 @@
       ]
     },
     {
+      "group": "Shell Development Kit",
+      "pages": [
+        "sdk/introduction",
+        "sdk/commands",
+        "sdk/variables",
+        "sdk/conditions",
+        "sdk/loops",
+        "sdk/functions",
+        "sdk/development",
+        "sdk/bundle",
+        "sdk/bundle.sanetize"
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
