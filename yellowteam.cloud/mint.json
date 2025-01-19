@@ -58,7 +58,8 @@
       "pages": [
         "introduction",
         "quickstart",
-        "development"
+        "development",
+        "shell development kit"
       ]
     },
     {
