@@ -9,11 +9,11 @@ already trapped, displays a warning message.
 
 ## Index
 
-* [sdk:signal:register](#sdksignalregister)
+* [dsh:signal:register](#dshsignalregister)
 
 ## signal
 
-### sdk:signal:register
+### dsh:signal:register
 
 Registers signal handlers for the specified signals. If a signal is
 already trapped, displays a warning message.
@@ -21,7 +21,7 @@ already trapped, displays a warning message.
 #### Example
 
 ```bash
-sdk:signal:register SIGTERM SIGINT
+dsh:signal:register SIGTERM SIGINT
 # Registers handlers for SIGTERM and SIGINT signals
 ```
 
@@ -36,7 +36,7 @@ sdk:signal:register SIGTERM SIGINT
 
 #### See also
 
-* [sdk:log:warn Logs warning messages if signal already trapped](#sdklogwarn-logs-warning-messages-if-signal-already-trapped)
-* [sdk:on:signal Signal handler function that gets called when signal received](#sdkonsignal-signal-handler-function-that-gets-called-when-signal-received)
-* [sdk:style Function to style text output](#sdkstyle-function-to-style-text-output)
+* [dsh:log:warn Logs warning messages if signal already trapped](#dshlogwarn-logs-warning-messages-if-signal-already-trapped)
+* [dsh:on:signal Signal handler function that gets called when signal received](#dshonsignal-signal-handler-function-that-gets-called-when-signal-received)
+* [dsh:style Function to style text output](#dshstyle-function-to-style-text-output)
 

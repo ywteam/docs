@@ -7,12 +7,12 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#FFD700",
+    "light": "#FFEB3B",
+    "dark": "#FBC02D",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#FFD700",
+      "to": "#FFEB3B"
     }
   },
   "topbarLinks": [
@@ -31,8 +31,8 @@
       "url": "api-reference"
     },
     {
-      "name": "Shell Development Kit",
-      "url": "sdk"
+      "name": "Developer Shell",
+      "url": "dsh"
     }
   ],
   "anchors": [
@@ -54,51 +54,34 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Developer Shell",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development",
-        "shell development kit"
-      ]
-    },
-    {
-      "group": "Shell Development Kit",
-      "pages": [
-        "sdk/introduction",
-        "sdk/commands",
-        "sdk/variables",
-        "sdk/conditions",
-        "sdk/loops",
-        "sdk/functions",
-        "sdk/development",
-        "sdk/bundle",
-        "sdk/bundle.sanetize"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "projects/dsh/introduction",
+        "projects/dsh/commands",
+        "projects/dsh/variables",
+        "projects/dsh/conditions",
+        "projects/dsh/loops",
+        "projects/dsh/functions",
+        "projects/dsh/development",
+        "projects/dsh/bundle.sanetize",
+        "projects/dsh/bundle.validate",
+        "projects/dsh/cleanup",
+        "projects/dsh/dic.each",
+        "projects/dsh/dic.export",
+        "projects/dsh/docs",
+        "projects/dsh/docs.template",
+        "projects/dsh/io.region.read",
+        "projects/dsh/io.region.write",
+        "projects/dsh/log.priority",
+        "projects/dsh/log",
+        "projects/dsh/log.stdin",
+        "projects/dsh/signal.register",
+        "projects/dsh/signal",
+        "projects/dsh/style",
+        "projects/dsh/term.colors",
+        "projects/dsh/term.cursor",
+        "projects/dsh/term",
+        "projects/dsh/term.size"
       ]
     }
   ],

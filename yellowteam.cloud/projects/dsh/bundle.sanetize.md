@@ -13,11 +13,11 @@ This function processes a shell script file by:
 
 ## Index
 
-* [sdk:bundle:sanetize](#sdkbundlesanetize)
+* [dsh:bundle:sanetize](#dshbundlesanetize)
 
 ## Bundle
 
-### sdk:bundle:sanetize
+### dsh:bundle:sanetize
 
 This function processes a shell script file by:
 - Removing empty lines
@@ -29,7 +29,7 @@ This function processes a shell script file by:
 #### Example
 
 ```bash
-sdk:bundle:sanetize "/path/to/script.sh"
+dsh:bundle:sanetize "/path/to/script.sh"
 ```
 
 #### Arguments

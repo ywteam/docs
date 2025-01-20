@@ -1,4 +1,4 @@
-# sdk:docs:template
+# dsh:docs:template
 
 Generate documentation template for shell functions
 
@@ -10,11 +10,11 @@ name, file path, section, and examples if provided.
 
 ## Index
 
-* [sdk:docs:template](#sdkdocstemplate)
+* [dsh:docs:template](#dshdocstemplate)
 
 ## docs
 
-### sdk:docs:template
+### dsh:docs:template
 
 Creates a standardized documentation template for shell functions following
 shdoc format. The function generates basic documentation structure including
@@ -23,8 +23,8 @@ name, file path, section, and examples if provided.
 #### Example
 
 ```bash
-sdk:docs:template "myfunction.utils" --doc:brief="My utility function" --doc:example="myfunction.utils --help"
-sdk:docs:template "test.core" --doc:example="test.core run" --doc:example="test.core clean"
+dsh:docs:template "myfunction.utils" --doc:brief="My utility function" --doc:example="myfunction.utils --help"
+dsh:docs:template "test.core" --doc:example="test.core run" --doc:example="test.core clean"
 ```
 
 #### Options
@@ -42,5 +42,5 @@ sdk:docs:template "test.core" --doc:example="test.core run" --doc:example="test.
 
 #### See also
 
-* [sdk](#sdk)
+* [dsh](#dsh)
 

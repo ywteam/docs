@@ -10,11 +10,11 @@ for each detected package manager.
 
 ## Index
 
-* [sdk:cleanup](#sdkcleanup)
+* [dsh:cleanup](#dshcleanup)
 
 ## cleanup
 
-### sdk:cleanup
+### dsh:cleanup
 
 This function performs cleanup operations across various package managers
 in the system. It attempts to clean package caches and remove unnecessary files
@@ -23,7 +23,7 @@ for each detected package manager.
 #### Example
 
 ```bash
-sdk:cleanup
+dsh:cleanup
 ```
 
 _Function has no arguments._
@@ -42,5 +42,5 @@ _Function has no arguments._
 
 #### See also
 
-* [sdk:log:stdin](#sdklogstdin)
+* [dsh:log:stdin](#dshlogstdin)
 

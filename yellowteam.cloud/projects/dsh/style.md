@@ -8,9 +8,9 @@ Style text
 
 ## Index
 
-* [sdk:style](#sdkstyle)
+* [dsh:style](#dshstyle)
 
-### sdk:style
+### dsh:style
 
 Style text
 

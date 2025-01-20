@@ -8,18 +8,18 @@ Write content to region in file
 
 ## Index
 
-* [sdk:io:region:write](#sdkioregionwrite)
+* [dsh:io:region:write](#dshioregionwrite)
 
-### sdk:io:region:write
+### dsh:io:region:write
 
 Write content to region in file
 
 #### Example
 
 ```bash
-sdk:io:region:write "file" "region" "content"
-sdk:io:region:write "file" "region" "content" >&7
-sdk:io:region:write "file" "region" "content" >&7 | sdk:log:stdin "debug"
+dsh:io:region:write "file" "region" "content"
+dsh:io:region:write "file" "region" "content" >&7
+dsh:io:region:write "file" "region" "content" >&7 | dsh:log:stdin "debug"
 ```
 
 #### Exit codes

@@ -8,13 +8,13 @@ A collection of functions to manipulate terminal cursor position and visibility
 
 ## Index
 
-* [sdk:cursor](#sdkcursor)
+* [dsh:cursor](#dshcursor)
 
 ## cursor
 
 A collection of functions to manipulate terminal cursor position and visibility
 
-### sdk:cursor
+### dsh:cursor
 
 Provides commands to move cursor, clear screen/lines and control cursor visibility
 
@@ -22,7 +22,7 @@ Provides commands to move cursor, clear screen/lines and control cursor visibili
 
 ```bash
 # Move cursor up 2 lines
-sdk:cursor up 2
+dsh:cursor up 2
 ```
 
 #### Options

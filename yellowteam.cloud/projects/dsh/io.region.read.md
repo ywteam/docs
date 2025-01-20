@@ -8,9 +8,9 @@ Read region from file
 
 ## Index
 
-* [sdk:io:region:read](#sdkioregionread)
+* [dsh:io:region:read](#dshioregionread)
 
-### sdk:io:region:read
+### dsh:io:region:read
 
 Read region from file
 
@@ -18,14 +18,14 @@ Read region from file
 
 ```bash
 # all output
-sdk:io:region:read "file" "region" >&7     
+dsh:io:region:read "file" "region" >&7     
 # just region content
-sdk:io:region:read "file" "region" >&7 | head -n -1
+dsh:io:region:read "file" "region" >&7 | head -n -1
 # just the lines numbers
-sdk:io:region:read "file" "region" >&7 | tail -n 1
+dsh:io:region:read "file" "region" >&7 | tail -n 1
 # read lines as array
-readarray -t lines < <(sdk:io:region:read "file" "region" >&7 | head -n -1)
-read -a lines < <(sdk:io:region:read "${file}" "${region}" >&7 | head -n -1)
+readarray -t lines < <(dsh:io:region:read "file" "region" >&7 | head -n -1)
+read -a lines < <(dsh:io:region:read "${file}" "${region}" >&7 | head -n -1)
 ```
 
 #### Exit codes

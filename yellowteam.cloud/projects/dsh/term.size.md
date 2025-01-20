@@ -9,11 +9,11 @@ Falls back to default values if neither command is available.
 
 ## Index
 
-* [sdk:screen:size](#sdkscreensize)
+* [dsh:screen:size](#dshscreensize)
 
 ## term
 
-### sdk:screen:size
+### dsh:screen:size
 
 Determines the terminal size by attempting to use tput or stty commands.
 Falls back to default values if neither command is available.
@@ -21,7 +21,7 @@ Falls back to default values if neither command is available.
 #### Example
 
 ```bash
-sdk:screen:size 7>&1 | sdk:log:stdin "info" "term.size"
+dsh:screen:size 7>&1 | dsh:log:stdin "info" "term.size"
 # Output: 80 24
 ```
 
@@ -29,8 +29,8 @@ _Function has no arguments._
 
 #### Variables set
 
-* **SDK_SESSION["term.width"]** (Terminal): width in columns
-* **SDK_SESSION["term.height"]** (Terminal): height in lines
+* **DSH_SESSION["term.width"]** (Terminal): width in columns
+* **DSH_SESSION["term.height"]** (Terminal): height in lines
 
 #### Exit codes
 
@@ -43,5 +43,5 @@ _Function has no arguments._
 
 #### See also
 
-* [sdk:dep:exists Checks if required commands exist](#sdkdepexists-checks-if-required-commands-exist)
+* [dsh:dep:exists Checks if required commands exist](#dshdepexists-checks-if-required-commands-exist)
 

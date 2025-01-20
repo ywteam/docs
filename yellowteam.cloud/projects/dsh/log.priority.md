@@ -8,16 +8,16 @@ Log priority
 
 ## Index
 
-* [sdk:log:priority](#sdklogpriority)
+* [dsh:log:priority](#dshlogpriority)
 
-### sdk:log:priority
+### dsh:log:priority
 
 Log priority
 
 #### Example
 
 ```bash
-sdk:log:priority "info"    # 6
+dsh:log:priority "info"    # 6
 ```
 
 #### Exit codes

@@ -8,16 +8,16 @@ Log handler
 
 ## Index
 
-* [sdk:log](#sdklog)
+* [dsh:log](#dshlog)
 
-### sdk:log
+### dsh:log
 
 Log handler
 
 #### Example
 
 ```bash
-sdk:log "info" "Hello World"
+dsh:log "info" "Hello World"
 ```
 
 #### Exit codes

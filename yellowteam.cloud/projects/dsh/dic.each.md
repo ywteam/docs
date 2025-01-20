@@ -4,13 +4,13 @@ Dictionary each
 
 ## Index
 
-* [sdk:dic:each](#sdkdiceach)
+* [dsh:dic:each](#dshdiceach)
 
 ## dic
 
 Iterate over dictionary key value pairs
 
-### sdk:dic:each
+### dsh:dic:each
 
 Iterate over dictionary key value pairs
 

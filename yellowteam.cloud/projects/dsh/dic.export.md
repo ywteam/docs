@@ -4,13 +4,13 @@ Dictionary export
 
 ## Index
 
-* [sdk:dict:export](#sdkdictexport)
+* [dsh:dict:export](#dshdictexport)
 
 ## dic
 
 Export dictionary to environment variables
 
-### sdk:dict:export
+### dsh:dict:export
 
 Export dictionary to environment variables
 

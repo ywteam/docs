@@ -1,4 +1,4 @@
-# sdk:term
+# dsh:term
 
 Execute a command with given arguments
 
@@ -9,11 +9,11 @@ If command is not found, logs an error and returns failure.
 
 ## Index
 
-* [sdk:term](#sdkterm)
+* [dsh:term](#dshterm)
 
 ## term
 
-### sdk:term
+### dsh:term
 
 Executes a command with provided arguments after verifying the command exists.
 If command is not found, logs an error and returns failure.
@@ -21,8 +21,8 @@ If command is not found, logs an error and returns failure.
 #### Example
 
 ```bash
-sdk:term ls -la 7>&1 | sdk:log:stdin "info" "term.colors"
-sdk:term echo "Hello World" 7>&1 | sdk:log:stdin "info" "term.colors"
+dsh:term ls -la 7>&1 | dsh:log:stdin "info" "term.colors"
+dsh:term echo "Hello World" 7>&1 | dsh:log:stdin "info" "term.colors"
 ```
 
 #### Options
@@ -42,5 +42,5 @@ sdk:term echo "Hello World" 7>&1 | sdk:log:stdin "info" "term.colors"
 
 #### See also
 
-* [sdk:log](#sdklog)
+* [dsh:log](#dshlog)
 
