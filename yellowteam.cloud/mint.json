@@ -90,7 +90,8 @@
         "projects/dsh/term.colors",
         "projects/dsh/term.cursor",
         "projects/dsh/term",
-        "projects/dsh/term.size"
+        "projects/dsh/term.size",
+        "projects/dsh/docs.mint"
       ]
     },
     {
